@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+         form{
+                width: 700px;
+                height: 1400px;
+                border: 2px solid;
+                padding: 40px;
+                color: royalblue;  
+            }
+            ul{
+                border: 2px solid;
+                padding: 5px;
+                height: 100px;
+                width: 140;
+                overflow: auto;
+                list-style: none;
+            }
+            #Terms{
+                width: 600px;
+                height: 200px;
+                border: 1px solid;
+                padding: 2px;
+                overflow: auto;
+                margin-bottom: 30px;
+            }
+            #accept~span{
+                color: red;
+            }
+            #accept:checked~span{
+                color: green;
+            }
+    </style>
+     <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    </head>
+<body class="container">
+    <script src="../public/Javascript.js">Ignore</script>
+    <h2>Terms Of Services</h2>
+    <div id="Terms">
+        <h2>Our Terms & condition</h2>
+        <p>You're not connectedAnd the web just isn't the same without you. Let's get you back online! Try: Checking your network cables, modem, and routers Reconnecting to your wireless network Running Windows Network Diagnostics ERR_INTERNET_DISCONNECTEDYou're not connectedAnd the web just isn't the same without you. Let's get you back online! Try: Checking your network cables, modem, and routers Reconnecting to your wireless network Running Windows Network Diagnostics ERR_INTERNET_DISCONNECTEDYou're not connectedAnd the web just isn't the same without you. Let's get you back online! Try: Checking your network cables, modem, and routers Reconnecting to your wireless network Running Windows Network Diagnostics ERR_INTERNET_DISCONNECTED</p>
+    </div>
+    <div class="form-switch">
+        <input class="form-check-input" type="checkbox" id="accept"><span> I accept</span>
+    </div>
+
+    <div >
+        <input type="checkbox" id="accept"><span> I accept</span>
+    </div>
+    <<<------------------------------------------------------>>>
+
+    <form>
+        <h2 align="center">Register</h2>
+        <dl>
+            <dt>User Name</dt>
+            <dd>
+                <input type="text" name="show in url">
+            </dd>
+            <dt>Password</dt>
+            <dd>
+                <input type="password" name="show in url">
+            </dd>
+            <dt>Age</dt>
+            <dd>
+                <input type="Number" name="Age" value="15" autofocus step="5" min="15" max="25">
+            </dd>
+            <dt>Range Price</dt>
+            <dd>
+                <input type="range" name="Price" min="1500" max="5000" value="4000">
+            </dd>  
+            <dt>Departure Date</dt>
+            <dd>
+                <input type="date" name="Departure" >
+            </dd>    
+            <dt>Departure Date</dt>
+            <dd>
+                <input type="datetime-local" name="Departure2" >
+            </dd>   
+            <dt>Departure Date</dt>
+            <dd>
+                <input type="datetime" name="Departure2" >
+            </dd> 
+            <dt>Departure Date</dt>
+            <dd>
+                <input type="month" name="Departure2" >
+            </dd> 
+            <dt>Departure Date</dt>
+            <dd>
+                <input type="week" name="Departure2" >
+            </dd>  
+            <dt>Departure year</dt>
+            <dd>
+                <input type="year" name="Departure2" >
+            </dd>  
+            <dt>Departure Date Range</dt>
+            <dd>
+                <input type="date" min="2021-11-05" value="2021-11-08" max="2021-11-22" name="Departure2" >
+            </dd> 
+            <dt>Email</dt>
+            <dd>
+                <input type="email" name="Email"  >
+            </dd>   
+            <dt>Your website</dt>
+            <dd>
+                <input type="url" name="website"  >
+            </dd>  
+            <dt>Upload File</dt>
+            <dd>
+                <input type="file" accept=".docx,.pdf,.jpeg" name="resume" multiple  >
+            </dd> 
+            <dt>Select a color</dt>
+            <dd>
+                <input type="color"  name="color" value="#ff0000"  >
+            </dd> 
+            <dt>Select a Gender</dt>
+            <dd>
+                <input type="radio" name="Gender" checked value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+            </dd>      
+            <dt>Payment Mode</dt>
+            <dd>
+                <input type="radio" name="Pay">Cash
+                <input type="radio"  name="Pay">UPI
+                <input type="radio" name="Pay">Cradit Cradit
+                <input type="radio" name="Pay">Barcode
+                <input type="radio" name="Pay">Barcode1
+            </dd> 
+            <dt>Select a Courses</dt>
+            <dd>
+                <ul>
+                    <li><input type="checkbox" Name="Courses" value="">Oracle</li>
+                    <li><input type="checkbox" name="Courses" checked value="Fulstack">Fulstack</li>
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>              
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>              
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>   
+                    <li><input type="checkbox" Name="Courses" value="">Oracle</li>
+                    <li><input type="checkbox" name="Courses" checked value="Fulstack">Fulstack</li>
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>              
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>              
+                    <li><input type="checkbox" name="diffrent_show" value="Dotnet">Dotnet</li>                         
+              
+                </ul>
+            </dd> 
+        </dl>  
+        <button>Submit</button> 
+    </form>
+</body>
+</html>
